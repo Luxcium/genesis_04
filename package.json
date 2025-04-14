@@ -1,0 +1,20 @@
+{
+  "name": "@luxcium/my-project-20250414",
+  "displayName": "My unamed project",
+  "description": "A simple project without a name and description so far.",
+  "version": "0.1.0",
+  "publisher": "luxcium",
+ 
+  "main": "./dist/index.js",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "test": "node ./dist/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "@types/vscode": "^1.99.1",
+    "typescript": "^5.8.3"
+  }
+}
