@@ -4,7 +4,7 @@
   "description": "A simple project without a name and description so far.",
   "version": "0.1.0",
   "publisher": "luxcium",
- 
+
   "main": "./dist/index.js",
   "scripts": {
     "vscode:prepublish": "npm run compile",
@@ -14,7 +14,6 @@
   },
   "devDependencies": {
     "@types/node": "^22.14.1",
-    "@types/vscode": "^1.99.1",
     "typescript": "^5.8.3"
   }
 }
