@@ -12,7 +12,11 @@
     "test": "node ./dist/test/runTest.js"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.14",
     "@types/node": "^22.14.1",
+    "jest": "^29.7.0",
+    "jest-environment-node": "^29.7.0",
+    "ts-jest": "^29.3.2",
     "typescript": "^5.8.3"
   },
   "dependencies": {
