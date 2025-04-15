@@ -10,4 +10,27 @@ module.exports = {
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   roots: ['<rootDir>/src'],
   verbose: true,
+  // Coverage configuration
+  collectCoverageFrom: [
+    'src/zod/**/*.ts',
+    '!**/node_modules/**',
+    '!**/dist/**'
+  ],
+  coverageDirectory: 'coverage',
+  coverageReporters: ['text', 'lcov', 'clover', 'html'],
+  // Thresholds can be adjusted based on your requirements
+  coverageThreshold: {
+    global: {
+      branches: 80,
+      functions: 80,
+      lines: 80,
+      statements: 80
+    },
+    'src/zod/': {
+      branches: 90,
+      functions: 90,
+      lines: 90,
+      statements: 90
+    }
+  }
 };

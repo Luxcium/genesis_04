@@ -9,7 +9,10 @@
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "test": "node ./dist/test/runTest.js"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:zod": "jest src/test/zod"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
