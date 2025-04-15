@@ -22,7 +22,7 @@
       "file": ".copilot-commit-message-instructions.md"
     },
     {
-      "text": "Use conventional commit, one emoji, message format. Use the present tense and imperative mood."
+      "text": "Use conventional commit, one emoji , message format. Use the present tense and imperative mood."
     },
     {
       "text": "Use the format: 'feat: <description>' for new features."
