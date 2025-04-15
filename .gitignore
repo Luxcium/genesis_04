@@ -4,8 +4,6 @@ node_modules/
 dist/
 # Logs
 *.log
-# VS Code settings
-.vscode/
 # TypeScript cache
 *.tsbuildinfo
 # Env files
