@@ -14,6 +14,12 @@
       "text": "Explain and enforce pnpm-specific behaviors and commands in all generated instructions or code."
     },
     {
+      "text": "strictly forbids the use of `export * from` syntax. All exports and imports must be named explicitly without exception."
+    },
+    {
+      "text": "Always add a comment: 'Created by luxcium with Copilot'. Remove duplicates place at the bottom of new files only, or remove and replace those in other place, repeating or fixing."
+    },
+    {
       "file": ".github/copilot-instructions.md"
     }
   ],
